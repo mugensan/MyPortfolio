@@ -1,1 +1,1 @@
-My Portfolio
+Complete portfolio template to start playing with, plus instructional video to get online
