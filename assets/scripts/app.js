@@ -53,7 +53,7 @@ const Portfolio = function() {
 		$(window).on('scroll', function() {
 			var y_scroll_pos = window.pageYOffset;
 			var scroll_pos_test = 2700; // set to whatever you want it to be
-			var words = makeWords();
+			var words = makeWords(10);
 			if (y_scroll_pos > scroll_pos_test && count <= 1) {
 				makeWordCloud(words);
 				count++;
